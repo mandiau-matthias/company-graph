@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01T12:00:00Z",
+  "entities": [
+    {
+      "country": "BE",
+      "registry_number": "0400000001",
+      "name": "Canal Works BV",
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000001"
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "registry_number": "0400000002",
+      "name": "Canal Studio BV",
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000002"
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "registry_number": "0400000003",
+      "name": "North Orchard BV",
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000003"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "source": {
+        "source_system": "registry_fixture",
+        "source_record_id": "cw-profile",
+        "source_url": "https://example.test/cw-profile",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000001"
+        }
+      ],
+      "facts": [
+        {
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "A fictional workshop building furniture from reclaimed wood."
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "source_system": "registry_fixture",
+        "source_record_id": "cs-profile",
+        "source_url": "https://example.test/cs-profile",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000002"
+        }
+      ],
+      "facts": [
+        {
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "A fictional design studio within the Canal group."
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "source_system": "registry_fixture",
+        "source_record_id": "no-profile",
+        "source_url": "https://example.test/no-profile",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000003"
+        }
+      ],
+      "facts": [
+        {
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "A fictional orchard supplying local kitchens."
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "source_system": "filing_fixture",
+        "source_record_id": "cw-2025",
+        "source_url": "https://example.test/cw-2025",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000001"
+        }
+      ],
+      "facts": [
+        {
+          "predicate": "revenue",
+          "value": {
+            "kind": "money",
+            "value": "1000000",
+            "currency": "EUR",
+            "period_end": "2025-12-31",
+            "accounting_scope": "entity"
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "source_system": "directory_fixture",
+        "source_record_id": "cw-2025-summary",
+        "source_url": "https://example.test/cw-2025-summary",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000001"
+        }
+      ],
+      "facts": [
+        {
+          "predicate": "revenue",
+          "value": {
+            "kind": "money",
+            "value": "1300000",
+            "currency": "EUR",
+            "period_end": "2025-12-31",
+            "accounting_scope": "entity"
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "source_system": "filing_fixture",
+        "source_record_id": "cs-2025",
+        "source_url": "https://example.test/cs-2025",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [
+        {
+          "scheme": "BE_KBO",
+          "value": "0400000002"
+        }
+      ],
+      "facts": [
+        {
+          "predicate": "revenue",
+          "value": {
+            "kind": "money",
+            "value": "250000",
+            "currency": "EUR",
+            "period_end": "2025-12-31",
+            "accounting_scope": "entity"
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "source_system": "directory_fixture",
+        "source_record_id": "canal-similar-name",
+        "source_url": "https://example.test/canal-similar-name",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "identifiers": [],
+      "candidate_ids": [
+        "legal_entity:BE:0400000001"
+      ],
+      "facts": [
+        {
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "This unconfirmed directory description must not attach."
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "kind": "parent_of",
+      "from_subject": {
+        "scope": "legal_entity",
+        "subject_id": "legal_entity:BE:0400000001"
+      },
+      "to_subject": {
+        "scope": "legal_entity",
+        "subject_id": "legal_entity:BE:0400000002"
+      },
+      "attributes": {
+        "control_basis": "declared_parent"
+      },
+      "source": {
+        "source_system": "registry_fixture",
+        "source_record_id": "cs-parent",
+        "source_url": "https://example.test/cs-parent",
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "source_date": "2026-09-20"
+      },
+      "transformation_version": "fictional-example/1",
+      "visibility": "public",
+      "permitted_uses": [
+        "display",
+        "redistribute"
+      ],
+      "valid_from": "2025-01-01"
+    }
+  ]
+}

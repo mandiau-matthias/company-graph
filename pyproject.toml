@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automatron-company-graph"
+version = "0.1.0"
+description = "Resolve company records, reconcile sourced facts, and publish a reviewable knowledge graph."
+requires-python = ">=3.11"
+dependencies = ["pydantic==2.10.4"]
+license = "MIT"
+
+[project.scripts]
+company-graph = "company_graph.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["company_graph*"]

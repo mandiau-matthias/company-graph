@@ -1,0 +1,20 @@
+{
+  "origin": "Upswitch Delphi enrichment reference implementation",
+  "files": [
+    {
+      "source": "https://github.com/UpswitchEU/delphi/blob/802955b3c8e8a86c12d746ca3abb668f8841cc59/src/enrichment_layer/contracts/identity.py",
+      "path": "company_graph/core/contracts/identity.py",
+      "source_sha256": "e9645eb7e9c38588d47352dbe6367e5bde19e407963df4b2e35a63959316dc4b"
+    },
+    {
+      "source": "https://github.com/UpswitchEU/delphi/blob/802955b3c8e8a86c12d746ca3abb668f8841cc59/src/enrichment_layer/contracts/assertion.py",
+      "path": "company_graph/core/contracts/assertion.py",
+      "source_sha256": "2c6c5edef57f05e89b5ea99bda334d7dad04c49cd07cb8ffc032f8e73f1ef99f"
+    },
+    {
+      "source": "https://github.com/UpswitchEU/delphi/blob/802955b3c8e8a86c12d746ca3abb668f8841cc59/src/enrichment_layer/hashing.py",
+      "path": "company_graph/core/hashing.py",
+      "source_sha256": "2e96ef773f007ab9ab5d318c8df38598b4f44af9ff23be9df2feeb69621142de"
+    }
+  ]
+}

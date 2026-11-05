@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01T12:00:00+00:00",
+  "nodes": [
+    {
+      "id": "legal_entity:BE:0400000001",
+      "name": "Canal Works BV",
+      "country": "BE",
+      "registry_number": "0400000001",
+      "url": "https://mandiau-matthias.github.io/company-graph/be-0400000001.html",
+      "facts": [
+        {
+          "assertion_id": "asrt:5304eb0b470121d0e2d37623a8e1ae49",
+          "subject": {
+            "scope": "legal_entity",
+            "subject_id": "legal_entity:BE:0400000001",
+            "identifiers": []
+          },
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "A fictional workshop building furniture from reclaimed wood.",
+            "currency": null,
+            "unit": null,
+            "period_start": null,
+            "period_end": null,
+            "accounting_scope": null,
+            "basis": null
+          },
+          "source": {
+            "source_system": "registry_fixture",
+            "source_record_id": "cw-profile",
+            "source_url": "https://example.test/cw-profile",
+            "licence_id": null,
+            "source_date": "2026-09-20",
+            "effective_date": null,
+            "retrieved_at": "2026-10-01T12:00:00Z",
+            "document_sha256": null
+          },
+          "transformation_version": "company-graph/0.1",
+          "evidence_status": "reported",
+          "visibility": "public",
+          "permitted_uses": [
+            "display",
+            "redistribute"
+          ],
+          "verification": {
+            "level": "unverified",
+            "verified_by_principal": null,
+            "verified_at": null,
+            "receipt_id": null
+          },
+          "conflicts_with": [],
+          "supersedes": null
+        }
+      ],
+      "conflicts": [
+        {
+          "predicate": "revenue",
+          "reason": "Conflicting observations require review",
+          "candidates": [
+            {
+              "assertion_id": "asrt:b7946c8f6be933e301f6d434cdd4077b",
+              "subject": {
+                "scope": "legal_entity",
+                "subject_id": "legal_entity:BE:0400000001",
+                "identifiers": []
+              },
+              "predicate": "revenue",
+              "value": {
+                "kind": "money",
+                "value": "1000000",
+                "currency": "EUR",
+                "unit": null,
+                "period_start": null,
+                "period_end": "2025-12-31",
+                "accounting_scope": "entity",
+                "basis": null
+              },
+              "source": {
+                "source_system": "filing_fixture",
+                "source_record_id": "cw-2025",
+                "source_url": "https://example.test/cw-2025",
+                "licence_id": null,
+                "source_date": "2026-09-20",
+                "effective_date": null,
+                "retrieved_at": "2026-10-01T12:00:00Z",
+                "document_sha256": null
+              },
+              "transformation_version": "company-graph/0.1",
+              "evidence_status": "reported",
+              "visibility": "public",
+              "permitted_uses": [
+                "display",
+                "redistribute"
+              ],
+              "verification": {
+                "level": "unverified",
+                "verified_by_principal": null,
+                "verified_at": null,
+                "receipt_id": null
+              },
+              "conflicts_with": [],
+              "supersedes": null
+            },
+            {
+              "assertion_id": "asrt:90bb64f4c16e40561add73538b91c897",
+              "subject": {
+                "scope": "legal_entity",
+                "subject_id": "legal_entity:BE:0400000001",
+                "identifiers": []
+              },
+              "predicate": "revenue",
+              "value": {
+                "kind": "money",
+                "value": "1300000",
+                "currency": "EUR",
+                "unit": null,
+                "period_start": null,
+                "period_end": "2025-12-31",
+                "accounting_scope": "entity",
+                "basis": null
+              },
+              "source": {
+                "source_system": "directory_fixture",
+                "source_record_id": "cw-2025-summary",
+                "source_url": "https://example.test/cw-2025-summary",
+                "licence_id": null,
+                "source_date": "2026-09-20",
+                "effective_date": null,
+                "retrieved_at": "2026-10-01T12:00:00Z",
+                "document_sha256": null
+              },
+              "transformation_version": "company-graph/0.1",
+              "evidence_status": "reported",
+              "visibility": "public",
+              "permitted_uses": [
+                "display",
+                "redistribute"
+              ],
+              "verification": {
+                "level": "unverified",
+                "verified_by_principal": null,
+                "verified_at": null,
+                "receipt_id": null
+              },
+              "conflicts_with": [],
+              "supersedes": null
+            }
+          ]
+        }
+      ],
+      "jsonld": {
+        "@type": "Organization",
+        "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000001.html#organization",
+        "url": "https://mandiau-matthias.github.io/company-graph/be-0400000001.html",
+        "name": "Canal Works BV",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "BE registry",
+          "value": "0400000001"
+        },
+        "description": "A fictional workshop building furniture from reclaimed wood.",
+        "subOrganization": [
+          {
+            "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html#organization"
+          }
+        ]
+      }
+    },
+    {
+      "id": "legal_entity:BE:0400000002",
+      "name": "Canal Studio BV",
+      "country": "BE",
+      "registry_number": "0400000002",
+      "url": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html",
+      "facts": [
+        {
+          "assertion_id": "asrt:2b5727cec97f9e0632300b22192304ba",
+          "subject": {
+            "scope": "legal_entity",
+            "subject_id": "legal_entity:BE:0400000002",
+            "identifiers": []
+          },
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "A fictional design studio within the Canal group.",
+            "currency": null,
+            "unit": null,
+            "period_start": null,
+            "period_end": null,
+            "accounting_scope": null,
+            "basis": null
+          },
+          "source": {
+            "source_system": "registry_fixture",
+            "source_record_id": "cs-profile",
+            "source_url": "https://example.test/cs-profile",
+            "licence_id": null,
+            "source_date": "2026-09-20",
+            "effective_date": null,
+            "retrieved_at": "2026-10-01T12:00:00Z",
+            "document_sha256": null
+          },
+          "transformation_version": "company-graph/0.1",
+          "evidence_status": "reported",
+          "visibility": "public",
+          "permitted_uses": [
+            "display",
+            "redistribute"
+          ],
+          "verification": {
+            "level": "unverified",
+            "verified_by_principal": null,
+            "verified_at": null,
+            "receipt_id": null
+          },
+          "conflicts_with": [],
+          "supersedes": null
+        },
+        {
+          "assertion_id": "asrt:907c0f37be2d62b9a4444efb669699ca",
+          "subject": {
+            "scope": "legal_entity",
+            "subject_id": "legal_entity:BE:0400000002",
+            "identifiers": []
+          },
+          "predicate": "revenue",
+          "value": {
+            "kind": "money",
+            "value": "250000",
+            "currency": "EUR",
+            "unit": null,
+            "period_start": null,
+            "period_end": "2025-12-31",
+            "accounting_scope": "entity",
+            "basis": null
+          },
+          "source": {
+            "source_system": "filing_fixture",
+            "source_record_id": "cs-2025",
+            "source_url": "https://example.test/cs-2025",
+            "licence_id": null,
+            "source_date": "2026-09-20",
+            "effective_date": null,
+            "retrieved_at": "2026-10-01T12:00:00Z",
+            "document_sha256": null
+          },
+          "transformation_version": "company-graph/0.1",
+          "evidence_status": "reported",
+          "visibility": "public",
+          "permitted_uses": [
+            "display",
+            "redistribute"
+          ],
+          "verification": {
+            "level": "unverified",
+            "verified_by_principal": null,
+            "verified_at": null,
+            "receipt_id": null
+          },
+          "conflicts_with": [],
+          "supersedes": null
+        }
+      ],
+      "conflicts": [],
+      "jsonld": {
+        "@type": "Organization",
+        "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html#organization",
+        "url": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html",
+        "name": "Canal Studio BV",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "BE registry",
+          "value": "0400000002"
+        },
+        "description": "A fictional design studio within the Canal group."
+      }
+    },
+    {
+      "id": "legal_entity:BE:0400000003",
+      "name": "North Orchard BV",
+      "country": "BE",
+      "registry_number": "0400000003",
+      "url": "https://mandiau-matthias.github.io/company-graph/be-0400000003.html",
+      "facts": [
+        {
+          "assertion_id": "asrt:13077f437b209589fdd87757ff37e724",
+          "subject": {
+            "scope": "legal_entity",
+            "subject_id": "legal_entity:BE:0400000003",
+            "identifiers": []
+          },
+          "predicate": "description",
+          "value": {
+            "kind": "text",
+            "value": "A fictional orchard supplying local kitchens.",
+            "currency": null,
+            "unit": null,
+            "period_start": null,
+            "period_end": null,
+            "accounting_scope": null,
+            "basis": null
+          },
+          "source": {
+            "source_system": "registry_fixture",
+            "source_record_id": "no-profile",
+            "source_url": "https://example.test/no-profile",
+            "licence_id": null,
+            "source_date": "2026-09-20",
+            "effective_date": null,
+            "retrieved_at": "2026-10-01T12:00:00Z",
+            "document_sha256": null
+          },
+          "transformation_version": "company-graph/0.1",
+          "evidence_status": "reported",
+          "visibility": "public",
+          "permitted_uses": [
+            "display",
+            "redistribute"
+          ],
+          "verification": {
+            "level": "unverified",
+            "verified_by_principal": null,
+            "verified_at": null,
+            "receipt_id": null
+          },
+          "conflicts_with": [],
+          "supersedes": null
+        }
+      ],
+      "conflicts": [],
+      "jsonld": {
+        "@type": "Organization",
+        "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000003.html#organization",
+        "url": "https://mandiau-matthias.github.io/company-graph/be-0400000003.html",
+        "name": "North Orchard BV",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "BE registry",
+          "value": "0400000003"
+        },
+        "description": "A fictional orchard supplying local kitchens."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "relationship_id": "rel:159860ec678cd28b0889d0f57068ccdd",
+      "kind": "parent_of",
+      "from_subject": {
+        "scope": "legal_entity",
+        "subject_id": "legal_entity:BE:0400000001",
+        "identifiers": []
+      },
+      "to_subject": {
+        "scope": "legal_entity",
+        "subject_id": "legal_entity:BE:0400000002",
+        "identifiers": []
+      },
+      "attributes": {
+        "control_basis": "declared_parent"
+      },
+      "valid_from": "2025-01-01",
+      "valid_until": null,
+      "source": {
+        "source_system": "registry_fixture",
+        "source_record_id": "cs-parent",
+        "source_url": "https://example.test/cs-parent",
+        "licence_id": null,
+        "source_date": "2026-09-20",
+        "effective_date": null,
+        "retrieved_at": "2026-10-01T12:00:00Z",
+        "document_sha256": null
+      },
+      "transformation_version": "fictional-example/1",
+      "evidence_status": "reported",
+      "visibility": "public",
+      "permitted_uses": [
+        "display",
+        "redistribute"
+      ],
+      "derived_from": [],
+      "derivation_rule": null
+    }
+  ],
+  "matches": [
+    {
+      "source": "registry_fixture",
+      "record": "cw-profile",
+      "status": "exact",
+      "subject": "legal_entity:BE:0400000001"
+    },
+    {
+      "source": "registry_fixture",
+      "record": "cs-profile",
+      "status": "exact",
+      "subject": "legal_entity:BE:0400000002"
+    },
+    {
+      "source": "registry_fixture",
+      "record": "no-profile",
+      "status": "exact",
+      "subject": "legal_entity:BE:0400000003"
+    },
+    {
+      "source": "filing_fixture",
+      "record": "cw-2025",
+      "status": "exact",
+      "subject": "legal_entity:BE:0400000001"
+    },
+    {
+      "source": "directory_fixture",
+      "record": "cw-2025-summary",
+      "status": "exact",
+      "subject": "legal_entity:BE:0400000001"
+    },
+    {
+      "source": "filing_fixture",
+      "record": "cs-2025",
+      "status": "exact",
+      "subject": "legal_entity:BE:0400000002"
+    },
+    {
+      "source": "directory_fixture",
+      "record": "canal-similar-name",
+      "status": "candidate",
+      "subject": null
+    }
+  ],
+  "review": [
+    {
+      "kind": "identity",
+      "record": "canal-similar-name",
+      "reason": "candidate: no automatic merge"
+    }
+  ]
+}

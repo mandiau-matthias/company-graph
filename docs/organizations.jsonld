@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000001.html#organization",
+      "url": "https://mandiau-matthias.github.io/company-graph/be-0400000001.html",
+      "name": "Canal Works BV",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "BE registry",
+        "value": "0400000001"
+      },
+      "description": "A fictional workshop building furniture from reclaimed wood.",
+      "subOrganization": [
+        {
+          "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html#organization"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html#organization",
+      "url": "https://mandiau-matthias.github.io/company-graph/be-0400000002.html",
+      "name": "Canal Studio BV",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "BE registry",
+        "value": "0400000002"
+      },
+      "description": "A fictional design studio within the Canal group."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://mandiau-matthias.github.io/company-graph/be-0400000003.html#organization",
+      "url": "https://mandiau-matthias.github.io/company-graph/be-0400000003.html",
+      "name": "North Orchard BV",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "BE registry",
+        "value": "0400000003"
+      },
+      "description": "A fictional orchard supplying local kitchens."
+    }
+  ]
+}
